@@ -3,5 +3,6 @@
   "web_url": "https://cosmochrony.org/science/gauge-structure/sm-charge-mass/",
   "main_tex": "tex/SM-charge-mass.tex",
   "zenodo_id": 18488987,
-  "doi": "10.5281/zenodo.18488987"
+  "doi": "10.5281/zenodo.18488987",
+  "version": "1.1.1"
 }
