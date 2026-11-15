@@ -1,4 +1,7 @@
 \documentclass[pdflatex,sn-mathphys-num]{sn-jnl} % Math and Physical Sciences Numbered Reference Style
+\usepackage{eso-pic}
+\AddToShipoutPictureFG*{\AtPageLowerLeft{\put(55,25){\small Preprint version 1.3}}}
+
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -152,8 +155,8 @@
     quantities can consistently arise as effective descriptors within a
     projection-limited framework.
     In addition to the conceptual analysis, we provide an explicit effective
-    construction of the proposed saturation mechanism in Lagrangian form, showing
-    a Born--Infeld--type constitutive candidate for bounded relational response,
+    construction of the proposed saturation mechanism in Lagrangian form.
+    We adopt a Born--Infeld--type constitutive candidate for bounded relational response
     and examine its associated symmetry structures.
     Its selection from projection is not derived.
 
@@ -616,14 +619,14 @@
     This section adds the minimal mathematical structure required to connect the relational
     framework to effective physical response.
     It provides an explicit effective action for the projected relaxation degree of freedom and
-    shows how mass-like, charge-like, and inertial responses arise under finite projective
-    capacity.
+    shows how mass-like, charge-like, and inertial responses arise within that supplied
+    constitutive model.
     The goal is not to postulate new fundamental fields, but to identify the minimal effective
     structures of the adopted constitutive model; their selection from a discrete rate bound is not derived.
 
     \paragraph{Scope of Section 5.}
       This section provides a formal effective derivation of mass-like, charge-like, and inertial
-      responses from bounded projective capacity.
+      responses within the supplied constitutive model.
       The objective is to establish existence and internal consistency rather than microscopic
       uniqueness.
       Completeness with respect to the full Standard Model gauge structure is not claimed and is
@@ -646,8 +649,8 @@
   We parametrize this limitation by introducing a saturation scale $b$ with dimensions of a
   flux density.
 
-  The minimal Lorentz-invariant completion enforcing boundedness while recovering the standard
-  quadratic kinetic term at low flux is the Dirac--Born--Infeld-type Lagrangian
+  We adopt as one Lorentz-invariant constitutive candidate with a standard quadratic low-flux
+  kinetic term the Dirac--Born--Infeld-type Lagrangian
   \begin{equation}
     \mathcal{L}_{\mathrm{BI}}(\phi)
     \equiv b^2\left(1-\sqrt{1-\frac{\partial_{\mu}\phi \,
