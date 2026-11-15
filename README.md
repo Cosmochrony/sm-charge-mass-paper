@@ -134,3 +134,7 @@ This repository is intended as a research reference.
 
 Critical feedback, conceptual discussion, and independent analysis are welcome.
 Please open an issue to discuss limitations, interpretations, or possible extensions.
+
+## BI-1 correction candidate
+
+Version 1.3, pending independent review and publication. Treats the Born–Infeld constitutive law as an adopted candidate rather than a necessary consequence of finite projective capacity. Mass, charge and inertia are consumer-owned interpretations within this model.
