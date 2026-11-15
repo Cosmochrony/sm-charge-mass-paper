@@ -7,7 +7,7 @@ set -e  # Exit on error
 
 # Configuration
 TEX_FILE="tex/SM-charge-mass.tex"
-OUTPUT_DIR="pdf"
+OUTPUT_DIR="out"
 MAIN_NAME="SM-charge-mass"
 
 # Colors for output
